@@ -74,41 +74,5 @@ The program validates all inputs to ensure:
 - Utility functions for input validation
 ```
 
-## 2. Setting up a GitHub Repository
 
-1. **Create a GitHub account** if you don't have one already at [github.com](https://github.com)
 
-2. **Create a new repository**:
-   - Click the "+" icon in the top right corner and select "New repository"
-   - Name it "Mensuration-Calculator" or something similar
-   - Add a brief description
-   - Choose "Public" visibility
-   - Don't initialize with README (we'll add our own)
-   - Click "Create repository"
-
-3. **Initialize Git locally and push your code**:
-
-```bash
-# Navigate to your project directory
-cd path/to/your/project
-
-# Initialize Git repository
-git init
-
-# Create your C file (if not already created)
-# Save your code as mensuration_calculator.c
-
-# Create README.md file
-# Copy the README content provided above
-
-# Add files to staging
-git add mensuration_calculator.c README.md
-
-# Commit changes
-git commit -m "Initial commit: Mensuration Calculator"
-
-# Link to your GitHub repository
-git remote add origin https://github.com/YOUR_USERNAME/Mensuration-Calculator.git
-
-# Push to GitHub
-git push -u origin master
