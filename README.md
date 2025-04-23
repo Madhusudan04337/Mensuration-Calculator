@@ -72,7 +72,4 @@ The program validates all inputs to ensure:
 - Main function with menu-driven interface
 - Separate functions for each shape's calculations
 - Utility functions for input validation
-```
-
-
 
